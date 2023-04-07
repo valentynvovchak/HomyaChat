@@ -1,0 +1,23 @@
+$primary-color-1: #EDC7B7;
+$primary-color-2: #EEE2DC;
+$primary-color-3: #BAB2B5;
+$primary-color-4: #123C69;
+$primary-color-5: #AC3B61;
+
+
+body {
+  background-color: $primary-color-1;
+  color: $primary-color-4;
+
+  font-family: 'Itim', cursive;
+  font-size: 20px;
+  line-height: 1.3;
+  margin: 0;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}

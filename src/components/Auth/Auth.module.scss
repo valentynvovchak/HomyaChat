@@ -1,0 +1,64 @@
+@use "../../../src/base";
+
+.auth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100vw;
+  height: 100vh;
+
+  .auth_form {
+    padding: 15px 62px;
+    text-align: center;
+    background-color: base.$primary-color-2;
+    width: 400px;
+    height: 560px;
+    box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.35);
+    border-radius: 10px;
+
+    form {
+      margin-top: 30px;
+      display: flex;
+      flex-wrap: wrap;
+
+      input {
+        font-family: 'Itim', sans-serif;
+        font-size: 20px;
+        text-align: center;
+        color: base.$primary-color-4;
+
+        width: 100%;
+        height: 40px;
+        margin: 14px 0;
+        padding: 10px 20px;
+
+        background-color: base.$primary-color-3;
+        outline: none;
+        border: 0;
+      }
+
+      .submit {
+        cursor: pointer;
+        font-size: 24px;
+        background-color: base.$primary-color-5;
+        color: white;
+        width: 60%;
+        margin: 14px auto;
+        border-radius: 25px;
+        height: 60px;
+        padding: 10px;
+        transition: .1s linear;
+
+        &:hover {
+          background-color: #8c2b4c;
+        }
+      }
+    }
+  }
+
+  .title {
+    font-weight: normal;
+  }
+}
+
